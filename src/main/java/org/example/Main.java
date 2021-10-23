@@ -8,15 +8,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        Double[] array = new Double[2];
-//        array[0] = 0.0153;
-//        array[1] = 0.5028;
-//
-//        System.out.println(array[0]);
-//
-//
-//        Double[] array1 = new Double[]{0.0153, 0.5028};
-
 
         List<Double[]> list = new ArrayList<>();
         list.add(new Double[]{0.0153, 0.5028});
@@ -35,16 +26,12 @@ public class Main {
         list.add(new Double[]{0.9318, 0.3046});
 
 
-
         List<Double[]> result = solution(list);
 
 
         for (Double[] e : result) {
             System.out.println(e[0] + " " + e[1]);
         }
-
-
-
 
 
     }
@@ -61,8 +48,6 @@ public class Main {
         int N = copyList.size();
         for (int i = 0; i < N; i++) {
             int unloadingIndex = minUnloading(copyList);
-//           Double[] array = list.get(unloadingIndex);
-//           Double aDouble = array[0];
             Double minUnloadingTime = copyList.get(unloadingIndex)[0];
             int cleaningIndex = minCleaning(copyList);
             Double minCleaningTime = copyList.get(cleaningIndex)[1];
