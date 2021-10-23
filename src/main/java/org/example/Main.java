@@ -28,19 +28,15 @@ public class Main {
 
         List<Double[]> result = solution(list);
 
-
         for (Double[] e : result) {
             System.out.println(e[0] + " " + e[1]);
         }
-
 
     }
 
 
     public static List<Double[]> solution(List<Double[]> list) {
         List<Double[]> copyList = new ArrayList<>(list);
-        //copyList.addAll(list);
-
         List<Double[]> unloadingList = new ArrayList<>();
         List<Double[]> cleaningList = new ArrayList<>();
 
@@ -76,7 +72,6 @@ public class Main {
 
 
         return result;
-
 
     }
 
