@@ -1,7 +1,7 @@
-package org.example.service;
+package ru.gumrf.ship.service;
 
 
-import org.example.model.HoldProcessTime;
+import ru.gumrf.ship.model.HoldProcessTime;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

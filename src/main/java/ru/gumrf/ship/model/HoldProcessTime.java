@@ -1,4 +1,4 @@
-package org.example.model;
+package ru.gumrf.ship.model;
 
 import lombok.*;
 

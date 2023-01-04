@@ -1,7 +1,7 @@
-package org.example.mapper;
+package ru.gumrf.ship.mapper;
 
-import org.example.dto.HoldProcessTimeDto;
-import org.example.model.HoldProcessTime;
+import ru.gumrf.ship.dto.HoldProcessTimeDto;
+import ru.gumrf.ship.model.HoldProcessTime;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

@@ -1,7 +1,6 @@
-package org.example.dto;
+package ru.gumrf.ship.dto;
 
 import lombok.Data;
-import org.example.model.HoldProcessTime;
 
 import java.util.List;
 

@@ -1,14 +1,14 @@
-package org.example.controller;
+package ru.gumrf.ship.controller;
 
 
 
 import lombok.RequiredArgsConstructor;
-import org.example.dto.HoldProcessTimeDto;
-import org.example.model.HoldProcessTime;
-import org.example.dto.OptimizationRequestDto;
-import org.example.dto.OptimizationResponseDto;
-import org.example.mapper.ShipMapper;
-import org.example.service.ShipService;
+import ru.gumrf.ship.dto.HoldProcessTimeDto;
+import ru.gumrf.ship.model.HoldProcessTime;
+import ru.gumrf.ship.dto.OptimizationRequestDto;
+import ru.gumrf.ship.dto.OptimizationResponseDto;
+import ru.gumrf.ship.mapper.ShipMapper;
+import ru.gumrf.ship.service.ShipService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -17,7 +17,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class ShipController {
 
-    private final ShipService  shipService;
+    private final ShipService shipService;
     private final ShipMapper shipMapper;
 
     @PostMapping ("/optimize-load")

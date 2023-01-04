@@ -1,4 +1,4 @@
-package org.example;
+package ru.gumrf.ship;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

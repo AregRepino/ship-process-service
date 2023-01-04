@@ -1,4 +1,4 @@
-package org.example.dto;
+package ru.gumrf.ship.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,7 +1,7 @@
-package org.example.service;
+package ru.gumrf.ship.service;
 
 
-import org.example.model.HoldProcessTime;
+import ru.gumrf.ship.model.HoldProcessTime;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,7 +15,6 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.mockito.BDDMockito.given;
 
 @RunWith(SpringRunner.class)
 public class ShipServiceTest {
